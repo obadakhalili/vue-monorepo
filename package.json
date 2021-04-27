@@ -1,0 +1,16 @@
+{
+  "private": true,
+  "name": "vue-monorepo",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "format:all": "yarn run prettier --ignore-path .gitignore --write ."
+  },
+  "devDependencies": {
+    "@vue/cli-service": "^4.5.12",
+    "prettier": "^2.2.1",
+    "vue": "^2.6.12",
+    "vue-template-compiler": "^2.6.12"
+  }
+}
